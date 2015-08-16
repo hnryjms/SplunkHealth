@@ -1,0 +1,63 @@
+# Project Specific
+
+## Splunk
+Splunk/**/local/
+Splunk/metadata/local.meta
+Splunk/**/*.pyo
+
+## iOS
+### Build generated
+build/
+DerivedData
+
+### Various settings
+iOS/*.pbxuser
+!iOS/**/default.pbxuser
+iOS/*.mode1v3
+!iOS/**/default.mode1v3
+iOS/*.mode2v3
+!iOS/**/default.mode2v3
+iOS/*.perspectivev3
+!iOS/**/default.perspectivev3
+iOS/**/xcuserdata
+
+### Other
+iOS/**/*.xccheckout
+iOS/**/*.moved-aside
+iOS/**/*.xcuserstate
+iOS/**/*.xcscmblueprint
+
+### Obj-C/Swift specific
+iOS/**/*.hmap
+*.ipa
+
+### Carthage
+Carthage/Build
+
+# OS X
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
